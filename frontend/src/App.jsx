@@ -9,7 +9,7 @@ function App() {
 const[jokes, setJokes] = useState([])
 
 useEffect(()=>{
-  axios.get('/api/jokes')
+  axios.get('https://fullstackpratice.onrender.com/api/jokes')
   .then((response)=>{
     setJokes(response.data);
   })
