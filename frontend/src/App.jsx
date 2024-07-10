@@ -16,7 +16,7 @@ useEffect(()=>{
   .catch((error)=>{
     console.log(error);
   })
-})
+},[])
   return (
     <>
       <h1>Chai aur Full Stack</h1>
